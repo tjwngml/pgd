@@ -1,0 +1,42 @@
+.user-avatars {
+  text-align: center;
+}
+
+.user-avatars-item {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.user-avatars-item img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 5;
+}
+
+.offline {
+  width: 18px;
+  height: 18px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3px;
+  right: 0px;
+  z-index: 10;
+  border: white, solid;
+}
+
+.online {
+  width: 18px;
+  height: 18px;
+  background-color: #4cfe88;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3px;
+  right: 0px;
+  z-index: 10;
+  border: white, solid;
+}
